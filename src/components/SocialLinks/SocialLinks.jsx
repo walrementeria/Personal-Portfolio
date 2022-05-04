@@ -6,7 +6,7 @@ export const SocialLinks = () => {
   return (
     <Flex justify="space-around" gap={6}>
       <Center>
-        <Link href="/">
+        <Link href="https://github.com/Rementeria03">
           <Icon w={10} h={10} as={IoLogoGithub} />
         </Link>
       </Center>

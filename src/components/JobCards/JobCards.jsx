@@ -124,7 +124,7 @@ export const JobCards = () => {
             </Text>
           </Box>
           <Box mt={3}>
-            <Box as="a" href="/">
+            <Box as="a" href="https://github.com/Rementeria03/Personal-Portfolio.git">
               <Button
                 mt={2}
                 size="sm"
