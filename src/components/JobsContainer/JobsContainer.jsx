@@ -1,7 +1,6 @@
 import { Flex, Heading, Stack, useMediaQuery } from "@chakra-ui/react";
 import { React } from "react";
 import { JobCards } from "../JobCards/JobCards";
-import { SkillsContainer } from "../SkillsContainer/SkillsContainer";
 
 export const JobsContainer = () => {
   const [isNotSmallerScreen] = useMediaQuery("(min-width: 845px)");
@@ -13,18 +12,6 @@ export const JobsContainer = () => {
       color="gray.500"
     >
       <Flex direction="column" alignItems="center">
-        <Heading
-          py={8}
-          fontFamily="Urbanist"
-          fontWeight="Bold"
-          color="cyan.400"
-          fontSize="4xl"
-        >
-          Habilidades
-        </Heading>
-        <SkillsContainer />
-      </Flex>
-      <Flex mt="8em" direction="column" alignItems="center">
         <Heading
           py={8}
           fontFamily="Urbanist"

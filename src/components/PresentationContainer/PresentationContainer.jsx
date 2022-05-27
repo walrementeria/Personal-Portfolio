@@ -65,7 +65,7 @@ export const PresentationContainer = () => {
           maxW="845px"
           color={isDark ? "gray.400" : "gray.500"}
         >
-          ¡HELLO WORLD! Mí nombre es Walter Rementeria y hace un año soy
+          ¡HOLA MUNDO! Mí nombre es Walter Rementeria y hace un año soy
           desarrollador Front End. Empecé por pasión y me quedé por profesión,
           encontré mi lugar en el desarrollo y desde entonces me capacito
           constantemente para ofrecer lo mejor de mi conocimiento.
