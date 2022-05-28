@@ -1,4 +1,4 @@
-import { Flex, Grid, Heading, Stack, useMediaQuery } from "@chakra-ui/react";
+import { Flex, Grid, Heading, useMediaQuery } from "@chakra-ui/react";
 import { React } from "react";
 import { JobCards } from "../JobCards/JobCards";
 
