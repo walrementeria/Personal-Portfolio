@@ -7,7 +7,8 @@ export const JobsContainer = () => {
   return (
     <Flex
       direction="column"
-      p={isNotSmallerScreen ? "32" : "3"}
+      px={isNotSmallerScreen ? "32" : "3"}
+      py={4}
       w="full"
       color="gray.500"
     >

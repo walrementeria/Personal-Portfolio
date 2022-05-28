@@ -6,6 +6,7 @@ import {
   Text,
   Heading,
   useMediaQuery,
+  useColorMode,
 } from "@chakra-ui/react";
 import {
   IoLogoHtml5,
@@ -18,6 +19,9 @@ import { SiChakraui, SiBootstrap } from "react-icons/si";
 
 export const SkillsContainer = () => {
   const [isNotSmallerScreen] = useMediaQuery("(min-width: 845px)");
+  const {colorMode} = useColorMode()
+
+  const isDark = colorMode === "dark";
 
   return (
     <Flex
@@ -42,6 +46,7 @@ export const SkillsContainer = () => {
         alignItems="center"
         justifyContent="center"
         gap={14}
+        color={isDark ? "gray.400" : "gray.500"}
       >
         <Flex direction="column" alignItems="center">
           <Text>HTML</Text>

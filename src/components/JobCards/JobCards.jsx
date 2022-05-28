@@ -39,13 +39,14 @@ export const JobCards = () => {
               alignItems="center"
               justifyContent="space-between"
             >
+              <Text>Compra gamer</Text>
+              <Spacer />
               <Icon as={IoLogoReact} />
               <Icon ml={2} as={IoLogoFirebase} />
               <Icon ml={2} as={SiChakraui} />
-              <Spacer />
             </Box>
             <Divider my={1} />
-            <Text fontFamily="inherit" fontSize="sm">
+            <Text fontFamily="inherit" fontStyle="italic" fontSize="sm">
               Estilado de página compragamer utilizando Chakra UI. Manejando
               Firebase y recreando funcionalidades con JS.
             </Text>
@@ -114,17 +115,21 @@ export const JobCards = () => {
               alignItems="center"
               justifyContent="space-between"
             >
+              <Text>Personal portfolio</Text>
+              <Spacer />
               <Icon as={IoLogoReact} />
               <Icon ml={2} as={SiChakraui} />
-              <Spacer />
             </Box>
             <Divider my={1} />
-            <Text fontFamily="inherit" fontSize="sm">
+            <Text fontFamily="inherit" fontStyle="italic" fontSize="sm">
               Este portafolio fue creado con React.Js y estilado con Chakra UI
             </Text>
           </Box>
           <Box mt={3}>
-            <Box as="a" href="https://github.com/Rementeria03/Personal-Portfolio.git">
+            <Box
+              as="a"
+              href="https://github.com/Rementeria03/Personal-Portfolio.git"
+            >
               <Button
                 mt={2}
                 size="sm"

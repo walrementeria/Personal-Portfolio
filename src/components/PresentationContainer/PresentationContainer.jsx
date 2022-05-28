@@ -1,5 +1,4 @@
 import React from "react";
-import me from "../../resources/SVG/Io.svg";
 import {
   Box,
   Circle,
@@ -53,9 +52,9 @@ export const PresentationContainer = () => {
           mt={isNotSmallerScreen ? "0" : "4"}
           backgroundColor="transparent"
           boxSize="250px"
-          alt="Image of my"
+          alt="imagen de mi"
           zIndex="1"
-          src={me}
+          src={`https://firebasestorage.googleapis.com/v0/b/personal-portfolio-8db01.appspot.com/o/images%2FIo.svg?alt=media&token=4ed5b9fd-36b5-429f-82f9-d19c41970bce`}
           borderRadius="full"
         />
       </Flex>
