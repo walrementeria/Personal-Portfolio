@@ -20,7 +20,6 @@ export const JobCards = () => {
   return (
     <>
       <Flex //card de trabajo
-        w="290px"
         direction="column"
         rounded="md"
         overflow="hidden"
@@ -29,7 +28,9 @@ export const JobCards = () => {
         transition=".3s all ease"
         _hover={{ scale: 1.009 }}
       >
-        <Image src={`https://firebasestorage.googleapis.com/v0/b/personal-portfolio-8db01.appspot.com/o/images%2FprojectCompraGamer.PNG?alt=media&token=e9f9750b-355a-4f35-a63a-48f790088d3c`} />
+        <Image
+          src={`https://firebasestorage.googleapis.com/v0/b/personal-portfolio-8db01.appspot.com/o/images%2FprojectCompraGamer.PNG?alt=media&token=e9f9750b-355a-4f35-a63a-48f790088d3c`}
+        />
         <Box display="flex" flexDir="column" p={4} alignContent="space-between">
           <Box>
             <Box
@@ -90,7 +91,6 @@ export const JobCards = () => {
         </Box>
       </Flex>
       <Flex //card de trabajo
-        w="290px"
         direction="column"
         rounded="md"
         overflow="hidden"
@@ -99,7 +99,9 @@ export const JobCards = () => {
         transition=".3s all ease"
         _hover={{ scale: 1.009 }}
       >
-        <Image src={`https://firebasestorage.googleapis.com/v0/b/personal-portfolio-8db01.appspot.com/o/images%2Fportfolio.PNG?alt=media&token=a854743e-090b-442c-b195-1fa33bc25d36`} />
+        <Image
+          src={`https://firebasestorage.googleapis.com/v0/b/personal-portfolio-8db01.appspot.com/o/images%2Fportfolio.PNG?alt=media&token=a854743e-090b-442c-b195-1fa33bc25d36`}
+        />
         <Box
           display="flex"
           flexDir="column"
@@ -140,6 +142,82 @@ export const JobCards = () => {
                 Ver código
               </Button>
             </Box>
+          </Box>
+        </Box>
+      </Flex>
+      <Flex //card de trabajo
+        direction="column"
+        rounded="md"
+        overflow="hidden"
+        boxShadow={isDark ? "1px 1px 1em #233c41" : "1px 1px 1em #8fc2cb"}
+        transform="auto"
+        transition=".3s all ease"
+        _hover={{ scale: 1.009 }}
+      >
+        <Image
+          src={`https://firebasestorage.googleapis.com/v0/b/personal-portfolio-8db01.appspot.com/o/images%2FNeedGifs.PNG?alt=media&token=4b0348cd-7c1d-475c-893a-c58697a0b308`}
+        />
+        <Box
+          display="flex"
+          flexDir="column"
+          h="full"
+          p={4}
+          justifyContent="space-between"
+        >
+          <Box>
+            <Box
+              display="flex"
+              alignItems="center"
+              justifyContent="space-between"
+            >
+              <Text>Need Gifs</Text>
+              <Spacer />
+              <Icon as={IoLogoReact} />
+            </Box>
+            <Divider my={1} />
+            <Text fontFamily="inherit" fontStyle="italic" fontSize="sm">
+              Proyecto actual: Pagina para buscar y compartir gifs!
+            </Text>
+          </Box>
+          <Box mt={3}>
+            <Flex gap={2}>
+              <Box
+                as="a"
+                flex="1"
+                target="_blank"
+                href="https://github.com/Rementeria03/needGifs.git"
+              >
+                <Button
+                  mt={2}
+                  size="sm"
+                  w="full"
+                  colorScheme="#fff"
+                  color="blue.600"
+                  boxShadow="lg"
+                  _hover={{ bgColor: "blue.50" }}
+                >
+                  Ver código
+                </Button>
+              </Box>
+              <Box
+                display="flex"
+                flex="1"
+                as="a"
+                href="https://ineedgifs.vercel.app/"
+              >
+                <Button
+                  mt={2}
+                  size="sm"
+                  w="full"
+                  colorScheme="#fff"
+                  color="blue.600"
+                  boxShadow="lg"
+                  _hover={{ bgColor: "blue.50" }}
+                >
+                  Ver página
+                </Button>
+              </Box>
+            </Flex>
           </Box>
         </Box>
       </Flex>

@@ -54,7 +54,7 @@ export const PresentationContainer = () => {
           boxSize="250px"
           alt="imagen de mi"
           zIndex="1"
-          src={`https://firebasestorage.googleapis.com/v0/b/personal-portfolio-8db01.appspot.com/o/images%2FIo.svg?alt=media&token=4ed5b9fd-36b5-429f-82f9-d19c41970bce`}
+          src={`https://firebasestorage.googleapis.com/v0/b/personal-portfolio-8db01.appspot.com/o/images%2FmyImage.png?alt=media&token=f405f3fa-07b5-4653-a77d-a2228a752b96`}
           borderRadius="full"
         />
       </Flex>

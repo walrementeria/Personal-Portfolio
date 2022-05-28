@@ -1,4 +1,4 @@
-import { Flex, Heading, Stack, useMediaQuery } from "@chakra-ui/react";
+import { Flex, Grid, Heading, Stack, useMediaQuery } from "@chakra-ui/react";
 import { React } from "react";
 import { JobCards } from "../JobCards/JobCards";
 
@@ -22,14 +22,12 @@ export const JobsContainer = () => {
         >
           Proyectos
         </Heading>
-        <Stack
-          direction={isNotSmallerScreen ? "row" : "column"}
-          align={!isNotSmallerScreen && "center"}
-          mt="4em"
-          gap={2}
+        <Grid
+          templateColumns="repeat(auto-fit, minmax(290px, 1fr))"
+          gap={4}
         >
           <JobCards />
-        </Stack>
+        </Grid>
       </Flex>
     </Flex>
   );
