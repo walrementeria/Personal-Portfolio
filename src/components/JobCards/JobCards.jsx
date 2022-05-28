@@ -1,6 +1,4 @@
 import React from "react";
-import compragamer from "../../resources/SVG/projectCompraGamer.PNG";
-import portoflio from "../../resources/SVG/portfolio.PNG";
 import {
   Box,
   Button,
@@ -31,7 +29,7 @@ export const JobCards = () => {
         transition=".3s all ease"
         _hover={{ scale: 1.009 }}
       >
-        <Image src={compragamer} />
+        <Image src={`https://firebasestorage.googleapis.com/v0/b/personal-portfolio-8db01.appspot.com/o/images%2FprojectCompraGamer.PNG?alt=media&token=e9f9750b-355a-4f35-a63a-48f790088d3c`} />
         <Box display="flex" flexDir="column" p={4} alignContent="space-between">
           <Box>
             <Box
@@ -101,7 +99,7 @@ export const JobCards = () => {
         transition=".3s all ease"
         _hover={{ scale: 1.009 }}
       >
-        <Image src={portoflio} />
+        <Image src={`https://firebasestorage.googleapis.com/v0/b/personal-portfolio-8db01.appspot.com/o/images%2Fportfolio.PNG?alt=media&token=a854743e-090b-442c-b195-1fa33bc25d36`} />
         <Box
           display="flex"
           flexDir="column"
