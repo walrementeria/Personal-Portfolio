@@ -7,6 +7,7 @@ import {
   Heading,
   useMediaQuery,
   useColorMode,
+  Center,
 } from "@chakra-ui/react";
 import {
   IoLogoHtml5,
@@ -15,6 +16,7 @@ import {
   IoLogoJavascript,
   IoLogoFirebase,
 } from "react-icons/io5";
+import { SiTypescript } from 'react-icons/si'
 import { SiChakraui, SiBootstrap } from "react-icons/si";
 
 export const SkillsContainer = () => {
@@ -59,6 +61,10 @@ export const SkillsContainer = () => {
         <Flex direction="column" alignItems="center">
           <Text>JavaScript</Text>
           <Icon color="#f0db4f" as={IoLogoJavascript} w={16} h={16} />
+        </Flex>
+        <Flex direction="column" alignItems="center">
+          <Text>Typescript</Text>
+          <Icon color="#3178C6" p={1} as={SiTypescript} w={16} h={16} />
         </Flex>
         <Flex direction="column" alignItems="center">
           <Text>React.JS</Text>
